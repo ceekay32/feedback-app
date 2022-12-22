@@ -1,5 +1,16 @@
-function Card({ children }) {
-  return <div className="card">{children}</div>;
+function Card({ children, reverse }) {
+  //   return <div className={`card ${reverse && "reverse"}`}>{children}</div>; //conditional function
+  return (
+    <div
+      className="card"
+      style={{
+        backgroundColor: reverse ? "rgba(0,0,0,0.4)" : "#fff",
+        color: reverse ? "#fff" : "#000",
+      }}
+    >
+      {children}
+    </div>
+  );
 }
 
 export default Card;
