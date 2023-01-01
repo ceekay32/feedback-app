@@ -13,7 +13,7 @@ function FeedbackStats({ feedback }) {
     </div>
   );
 }
-FeedbackStats.PropTypes = {
+FeedbackStats.propTypes = {
   feedback: PropTypes.array.isRequired,
 };
 export default FeedbackStats;
