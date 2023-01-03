@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 function Button({ children, version, type, isDisabled }) {
   // destructuring props
   return (
-    <Button type={type} disabled={isDisabled} className={`btn btn-${version}`}>
-      Button
-    </Button>
+    <button type={type} disabled={isDisabled} className={`btn btn-${version}`}>
+      Send
+    </button>
   );
 }
 Button.defaultProps = {
