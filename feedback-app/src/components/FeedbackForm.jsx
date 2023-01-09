@@ -44,7 +44,7 @@ function FeedbackForm() {
           How would you rate your service with us?
           <RatingSelect
             select={(rating) => {
-              console.log(rating);
+              setRating(rating);
             }}
           />
         </h2>
