@@ -16,13 +16,13 @@
       "text": "This is feedback item 3 coming from db"
     },
     {
-      "rating": "5",
+      "rating": 5,
       "text": "New feedback item",
       "id": 8
     },
     {
       "text": "add feedback from db",
-      "rating": 10,
+      "rating": 8,
       "id": 9
     }
   ]
